@@ -1,22 +1,19 @@
 {
-    "Name": "hogaak",
+    "Name": "Hogaak",
     "IncludeColorInName": true,
     "Conditions": [
         {
             "Type": "InMainboard",
             "Cards": ["Hogaak, Arisen Necropolis"]
-        },
-        {
-            "Type": "InMainboard",
-            "Cards": ["Stitcher's Supplier"]
-        },      
+        },   
   	    {
-            "Type": "InMainboard",
-            "Cards": ["Altar of Dementia"]
+            "Type": "twoormoreInMainboard",
+            "Cards": ["Altar of Dementia", "Careful Study","Bridge from Below", "Hedron Crab","Stitcher's Supplier","Cabal Therapy"]
         },
         {
-            "Type": "InMainboard",
-            "Cards": ["Bridge from Below"]
+            "Type": "DoesNotContain",
+            "Cards": ["Golgari Grave-Troll"]
         }
+        
     ]
 }

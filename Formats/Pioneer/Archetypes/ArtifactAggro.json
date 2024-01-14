@@ -3,8 +3,16 @@
   "IncludeColorInName": true,
   "Conditions": [
     {
-      "Type": "InMainboard",
-      "Cards": ["Patchwork Automaton"]
+      "Type": "OneOrMoreInMainboard",
+      "Cards": ["Patchwork Automaton","Gingerbrute"]
+    },
+    {
+      "Type": "DoesNotContain",
+      "Cards": ["Hardened Scales"]
+    },
+    {
+      "Type": "DoesNotContain",
+      "Cards": ["Colossus Hammer"]
     }
   ],
   "Variants": [
@@ -15,20 +23,6 @@
         {
           "Type": "InMainboard",
           "Cards": ["Ensoul Artifact"]
-        }
-      ]
-    },
-    {
-      "Name": "GlittersStompy",
-      "IncludeColorInName": true,
-      "Conditions": [
-        {
-          "Type": "InMainboard",
-          "Cards": ["Ingenious Smith"]
-        },
-        {
-          "Type": "InMainboard",
-          "Cards": ["Michiko's Reign of Truth"]
         }
       ]
     }

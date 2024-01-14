@@ -1,0 +1,11 @@
+{
+    "Name": "Hawk",
+    "IncludeColorInName": true,
+    "Conditions": [
+        {
+            "Type": "InMainboard",
+            "Cards": ["Glint Hawk"]
+        }
+    ]
+
+}

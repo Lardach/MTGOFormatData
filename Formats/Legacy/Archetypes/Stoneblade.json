@@ -11,14 +11,6 @@
             "Cards": ["Batterskull", "Kaldra Compleat"]
         },
         {
-            "Type": "OneOrMoreInMainboard",
-            "Cards": ["Daze", "Force of Will", "Swords to Plowshares"]
-        },       
-        {
-            "Type": "DoesNotContainMainboard",
-            "Cards": ["Thalia, Guardian of Thraben"]
-        },       
-        {
             "Type": "DoesNotContain",
             "Cards": ["Cephalid Illusionist"]
         },       
@@ -29,6 +21,18 @@
         {
             "Type": "DoesNotContain",
             "Cards": ["Colossus Hammer"]
+        },       
+        {
+            "Type": "DoesNotContain",
+            "Cards": ["Aether Vial"]
+        },             
+        {
+            "Type": "DoesNotContain",
+            "Cards": ["Knight of the Reliquary"]
+        },
+        {
+            "Type": "DoesNotContainSideboard",
+            "Cards": ["Yorion, Sky Nomad"]
         }
     ]
 }

@@ -16,15 +16,15 @@
     },
     {
       "Type": "DoesNotContain",
+      "Cards": ["Ragavan, Nimble Pilferer"]
+    },
+    {
+      "Type": "DoesNotContain",
       "Cards": ["Hardened Scales"]
     },
     {
       "Type": "DoesNotContain",
       "Cards": ["Sword of the Meek"]
-    },
-    {
-      "Type": "DoesNotContain",
-      "Cards": ["Archon of Emeria"]
     },
     {
       "Type": "DoesNotContain",
@@ -38,17 +38,5 @@
       "Type": "DoesNotContainMainboard",
       "Cards": ["Underworld Breach"]
     }
-  ],
-  "Variants": [
-    {
-      "Name": "UrzaAffinity",
-      "IncludeColorInName": false,
-      "Conditions": [
-        {
-          "Type": "InMainboard",
-          "Cards": ["Urza, Lord High Artificer"]
-        }
-      ]
-    }
-   ]
+  ]
 }

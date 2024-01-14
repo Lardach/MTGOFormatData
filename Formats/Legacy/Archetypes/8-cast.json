@@ -3,18 +3,14 @@
     "IncludeColorInName": false,
     "Conditions": [
         {
-            "Type": "oneormoreInMainboard",
-            "Cards": ["Sai, Master Thopterist", "Kappa Cannoneer", "Emry, Lurker of the Loch"]
+            "Type": "TwoOrMoreInMainboard",
+            "Cards": ["Sai, Master Thopterist", "Kappa Cannoneer", "Emry, Lurker of the Loch", "Patchwork Automaton"]
         },
         {
             "Type": "InMainboard",
             "Cards": ["Lotus Petal"]
         },        
-        {
-            "Type": "oneormoreInMainboard",
-            "Cards": ["Thoughtcast", "Urza's Bauble"]
-        },
-        {
+                {
             "Type": "DoesNotContain",
             "Cards": ["Arcbound Ravager"]
         },
@@ -32,7 +28,11 @@
         },
         {
             "Type": "DoesNotContain",
-            "Cards": ["Teferi, Time Raveler"]
+            "Cards": ["Riddlesmith"]
+        },
+        {
+            "Type": "DoesNotContain",
+            "Cards": ["Paradoxical Outcome"]
         }
     ]
 }

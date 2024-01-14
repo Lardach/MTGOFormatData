@@ -29,22 +29,6 @@
 	{
 	  "Type": "DoesNotContain",
 	  "Cards": ["Asmoranomardicadaistinaculdacar"]
-	},
-	{
-	  "Type": "DoesNotContain",
-	  "Cards": ["Tameshi, Reality Architect"]
 	}
-  ],
-  "Variants": [
-    {
-      "Name": "ThopterUrza",
-      "IncludeColorInName": false,
-      "Conditions": [
-        {
-          "Type": "InMainboard",
-          "Cards": ["Urza, Lord High Artificer"]
-        }
-      ]
-    }
   ]
 }

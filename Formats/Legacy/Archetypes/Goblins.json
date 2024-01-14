@@ -3,12 +3,16 @@
     "IncludeColorInName": false,
     "Conditions": [
         {
-            "Type": "InMainboard",
-            "Cards": ["Goblin Lackey"]
+            "Type": "OneOrMoreInMainboard",
+            "Cards": ["Goblin Lackey","Muxus, Goblin Grandee"]
          },
          {
             "Type": "OneOrMoreInMainboard",
             "Cards": ["Goblin Trashmaster", "Goblin Ringleader", "Goblin Matron", "goblin rabblemaster"]
-         }
+         },        
+         {
+            "Type": "DoesNotContain",
+            "Cards": ["Name Sticker Goblin"]
+        }
     ]
 }

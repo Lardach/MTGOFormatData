@@ -5,6 +5,14 @@
     {
       "Type": "InMainboard",
       "Cards": ["Jeskai Ascendancy"]
+    },
+    {
+      "Type": "DoesNotContain",
+      "Cards": ["Rona, Herald of Invasion"]
+    },
+    {
+      "Type": "DoesNotContain",
+      "Cards": ["Arclight Phoenix"]
     }
   ]
 }

@@ -3,16 +3,20 @@
     "IncludeColorInName": false,
     "Conditions": [
           {
+            "Type": "OneOrMoreInMainboard",
+            "Cards": ["Beseech the Mirror","Tendrils of Agony"]
+          }         
+    ],
+    "Variants": [
+      {
+        "Name": "TES",
+        "IncludeColorInName": false,
+        "Conditions": [
+          {
             "Type": "InMainboard",
-            "Cards": ["Birgi, God of Storytelling"]
-          },         
-          {
-            "Type": "OneOrMoreInMainboard",
-            "Cards": ["Burning Wish", "Grapeshot"]
-          },
-          {
-            "Type": "OneOrMoreInMainboard",
-            "Cards": ["Wish", "Containment Construct"]
+            "Cards": ["Lion's Eye Diamond"]
           }
+        ]
+    }
     ]
 }

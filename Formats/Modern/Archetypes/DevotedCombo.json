@@ -16,23 +16,7 @@
     },
     {
       "Type": "DoesNotContain",
-      "Cards": ["Kiki-Jiki, Mirror Breaker"]
-    },
-    {
-      "Type": "DoesNotContain",
-      "Cards": ["Nykthos, Shrine to Nyx"]
-    },
-    {
-      "Type": "DoesNotContain",
       "Cards": ["Young Wolf"]
-    },
-    {
-      "Type": "DoesNotContain",
-      "Cards": ["Primeval Titan"]
-    },
-    {
-      "Type": "DoesNotContain",
-      "Cards": ["Ovalchase Daredevil"]
     }
   ]
 }

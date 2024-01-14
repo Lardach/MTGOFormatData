@@ -17,14 +17,6 @@
     {
       "Type": "DoesNotContain",
       "Cards": ["Death's Shadow"]
-    },
-    {
-      "Type": "DoesNotContain",
-      "Cards": ["Seismic Assault"]
-    },
-    {
-      "Type": "DoesNotContain",
-      "Cards": ["Crashing Footfalls"]
     }
   ]
 }

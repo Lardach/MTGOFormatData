@@ -1,0 +1,18 @@
+{
+    "Name": "Garden control",
+    "IncludeColorInName": true,
+    "Conditions": [
+        {
+            "Type": "InMainboard",
+            "Cards": ["Khalni Garden"]
+        },
+        {
+            "Type": "DoesNotContain",
+            "Cards": ["Slippery Bogle"]
+        },
+        {
+            "Type": "DoesNotContainMainboard",
+            "Cards": ["Pestilence"]
+        }     
+    ]
+}

@@ -16,14 +16,6 @@
     },
     {
       "Type": "DoesNotContain",
-      "Cards": ["Niv-Mizzet Reborn"]
-    },
-    {
-      "Type": "DoesNotContain",
-      "Cards": ["Crashing Footfalls"]
-    },
-    {
-      "Type": "DoesNotContain",
       "Cards": ["Indomitable Creativity"]
     }
   ],
@@ -33,41 +25,9 @@
       "IncludeColorInName": false,
       "Conditions": [
 		{
-		  "Type": "InMainboard",
-		  "Cards": ["Remand"]
-		},
-		{
-		  "Type": "DoesNotContain",
-		  "Cards": ["Bring to Light"]
-		},
-		{
-		  "Type": "DoesNotContain",
-		  "Cards": ["Omnath, Locus of Creation"]
+		  "Type": "OneOrMoreInMainboard",
+		  "Cards": ["Remand", "Omnath, Locus of Creation"]
 		}
-      ]
-    },
-	{
-      "Name": "BTLScapeshift",
-      "IncludeColorInName": false,
-      "Conditions": [
-        {
-          "Type": "InMainboard",
-          "Cards": ["Bring to Light"]
-        },
-		{
-          "Type": "DoesNotContain",
-          "Cards": ["Omnath, Locus of Creation"]
-        }
-      ]
-    },
-	{
-      "Name": "OmnathScapeshift",
-      "IncludeColorInName": false,
-      "Conditions": [
-		{
-          "Type": "InMainboard",
-          "Cards": ["Omnath, Locus of Creation"]
-        }
       ]
     }
   ]

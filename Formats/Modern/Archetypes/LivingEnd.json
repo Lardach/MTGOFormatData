@@ -14,21 +14,5 @@
       "Type": "DoesNotContain",
       "Cards": ["Electrodominance"]
     }
-  ],
-  "Variants": [
-    {
-      "Name": "BlueLivingEnd",
-      "IncludeColorInName": false,
-      "Conditions": [
-        {
-          "Type": "InMainboard",
-          "Cards": ["Shardless Agent"]
-        },
-		{
-		  "Type": "InMainboard",
-		  "Cards": ["Force of Negation"]
-		}
-      ]
-    }
   ]
 }

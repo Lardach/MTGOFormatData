@@ -4,15 +4,13 @@
   "Conditions": [
     {
       "Type": "TwoOrMoreInMainboard",
-      "Cards": ["Goblin Guide","Eidolon of the Great Revel","Monastery Swiftspear","Soul-Scar Mage","Abbot of Keral Keep","Kiln Fiend","Stormwing Entity","Sprite Dragon","Nivmagus Elemental","Clever Lumimancer","Ragavan, Nimble Pilferer","Dragon's Rage Channeler","Ledger Shredder"]
+      "Cards": ["Goblin Guide","Eidolon of the Great Revel","Monastery Swiftspear","Soul-Scar Mage",
+		"Abbot of Keral Keep","Kiln Fiend","Stormwing Entity","Sprite Dragon","Nivmagus Elemental","Clever Lumimancer",
+		"Ragavan, Nimble Pilferer","Dragon's Rage Channeler","Ledger Shredder","Bomat Courier"]
     },
     {
       "Type": "InMainboard",
       "Cards": ["Lightning Bolt"]
-    },
-    {
-      "Type": "DoesNotContain",
-      "Cards": ["Kird Ape"]
     },
     {
       "Type": "DoesNotContain",
@@ -35,14 +33,6 @@
       "Cards": ["Asmoranomardicadaistinaculdacar"]
     },
 	{
-      "Type": "DoesNotContain",
-      "Cards": ["Wrenn and Six"]
-    },
-	{
-	  "Type": "DoesNotContain",
-	  "Cards": ["Urza's Saga"]
-	},
-	{
 	  "Type": "DoesNotContain",
 	  "Cards": ["Grinding Station"]
 	},
@@ -54,17 +44,13 @@
 	  "Type": "DoesNotContain",
 	  "Cards": ["Reckless Bushwhacker"]
 	},
-	{
-	  "Type": "DoesNotContain",
-	  "Cards": ["Ground Rift"]
-	},
     {
       "Type": "DoesNotContain",
       "Cards": ["Archon of Cruelty"]
     },
     {
       "Type": "DoesNotContain",
-      "Cards": ["Scion of Draco"]
+      "Cards": ["Goblin Anarchomancer"]
     }
   ],
   "Variants": [
@@ -83,16 +69,12 @@
         {
           "Type": "DoesNotContain",
           "Cards": ["Bonecrusher Giant"]
-        },
-        {
-          "Type": "DoesNotContain",
-          "Cards": ["Obosh, the Preypiercer"]
         }
       ]
     },
     {
       "Name": "Prowess",
-      "IncludeColorInName": true,
+      "IncludeColorInName": false,
       "Conditions": [
         {
           "Type": "OneOrMoreInMainboard",
@@ -107,48 +89,46 @@
           "Cards": ["Obosh, the Preypiercer"]
         },
         {
-          "Type": "DoesNotContain",
-          "Cards": ["Force of Rage"]
-        },
-        {
           "Type": "DoesNotContainMainboard",
           "Cards": ["Force of Negation"]
         },
         {
           "Type": "DoesNotContainMainboard",
           "Cards": ["Skullcrack"]
-        },
-        {
-          "Type": "DoesNotContainMainboard",
-          "Cards": ["Akoum Hellhound"]
         }
       ]
     },
     {
-      "Name": "OboshAggro",
-      "IncludeColorInName": false,
+      "Name": "Saga",
+      "IncludeColorInName": true,
       "Conditions": [
         {
-          "Type": "OneOrMoreInMainboard",
-          "Cards": ["Seasoned Pyromancer","Bomat Courier","Chandra, Dressed to Kill"]
-        },
+          "Type": "TwoOrMoreInMainboard",
+          "Cards": ["Urza's Saga","Experimental Synthesizer","Dragon's Rage Channeler"]
+        }
+      ]
+    },
+    {
+      "Name": "OboshRed",
+      "IncludeColorInName": false,
+      "Conditions": [
         {
           "Type": "InSideboard",
           "Cards": ["Obosh, the Preypiercer"]
         }
-      ]
+	  ]
     },
     {
-      "Name": "GenericMonkey",
-      "IncludeColorInName": true,
+      "Name": "BreachValue",
+      "IncludeColorInName": false,
       "Conditions": [
         {
           "Type": "InMainboard",
-          "Cards": ["Ragavan, Nimble Pilferer"]
+          "Cards": ["Underworld Breach"]
         },
 	    {
           "Type": "OneOrMoreInMainboard",
-          "Cards": ["Counterspell","Force of Negation","Drown in the Loch"]
+          "Cards": ["Spell Pierce"]
         },
         {
           "Type": "DoesNotContain",
@@ -158,7 +138,7 @@
     },
     {
       "Name": "GenericMurktide",
-      "IncludeColorInName": true,
+      "IncludeColorInName": false,
       "Conditions": [
         {
           "Type": "InMainboard",

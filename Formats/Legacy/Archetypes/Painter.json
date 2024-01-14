@@ -10,9 +10,17 @@
             "Type": "InMainboard",
             "Cards": ["Grindstone"]
         },
-  	{
+    	{
             "Type": "InMainboard",
             "Cards": ["Urza's Saga"]
+        },
+        {
+            "Type": "DoesNotContain",
+            "Cards": ["Cephalid Illusionist"]
+        },
+        {
+            "Type": "DoesNotContain",
+            "Cards": ["Dark Depths"]
         }
     ]
 }

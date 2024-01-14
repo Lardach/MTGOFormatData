@@ -5,6 +5,14 @@
     {
       "Type": "InMainboard",
       "Cards": ["Rally the Ancestors"]
+    },
+    {
+      "Type": "DoesNotContain",
+      "Cards": ["Colossus Hammer"]
+    },
+    {
+      "Type": "DoesNotContain",
+      "Cards": ["Amalia Benavides Aguirre"]
     }
   ]
 }

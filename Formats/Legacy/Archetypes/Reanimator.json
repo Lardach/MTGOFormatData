@@ -2,21 +2,34 @@
     "Name": "Reanimator",
     "IncludeColorInName": false,
     "Conditions": [
+     
         {
-            "Type": "InMainboard",
-            "Cards": ["Reanimate"]
-        },
-        {
-            "Type": "InMainboard",
-            "Cards": ["Entomb"]
-        },
-        {
-            "Type": "InMainboard",
-            "Cards": ["Exhume"]
+            "Type": "TwoormoreInMainboard",
+            "Cards": ["Entomb","Currency Converter","Exhume","Animate Dead","Reanimate"]
         },
         {
             "Type": "DoesNotContain",
             "Cards": ["Children of Korlis"]
+        },
+        {
+            "Type": "DoesNotContain",
+            "Cards": ["Worldgorger Dragon"]
+        },
+        {
+            "Type": "DoesNotContain",
+            "Cards": ["Smallpox"]
+        },
+        {
+            "Type": "DoesNotContain",
+            "Cards": ["Dark Depths"]
+        },
+        {
+            "Type": "DoesNotContainmainboard",
+            "Cards": ["Show and Tell"]
+        },
+        {
+            "Type": "DoesNotContainmainboard",
+            "Cards": ["Death's Shadow"]
         }
     ]
 }

@@ -3,16 +3,12 @@
   "IncludeColorInName": false,
   "Conditions": [
     {
-      "Type": "InMainboard",
-      "Cards": ["Wrenn and Six"]
+      "Type": "OneOrMoreInMainboard",
+      "Cards": ["Wrenn and Six","Solitude"]
     },
     {
       "Type": "InMainboard",
       "Cards": ["Omnath, Locus of Creation"]
-    },
-    {
-      "Type": "InMainboard",
-      "Cards": ["Expressive Iteration"]
     },
     {
       "Type": "DoesNotContain",
@@ -40,7 +36,11 @@
     },
     {
       "Type": "DoesNotContain",
-      "Cards": ["Manamorphose"]
+      "Cards": ["Tameshi, Reality Architect"]
+    },
+    {
+      "Type": "DoesNotContain",
+      "Cards": ["Shardless Agent"]
     }
   ]
 }

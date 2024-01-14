@@ -5,10 +5,18 @@
     {
       "Type": "InMainboard",
       "Cards": ["Indomitable Creativity"]
-    },
+    }
+  ],
+  "Variants": [
     {
-      "Type": "DoesNotContain",
-      "Cards": ["Torrential Gearhulk"]
+      "Name": "Opus",
+      "IncludeColorInName": false,
+      "Conditions": [
+        {
+          "Type": "InMainboard",
+          "Cards": ["Magma Opus"]
+        }
+        ]
     }
   ]
 }

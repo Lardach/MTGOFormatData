@@ -9,6 +9,14 @@
     {
       "Type": "InMainboard",
       "Cards": ["Legion Loyalist"]
+    },
+    {
+      "Type": "DoesNotContain",
+      "Cards": ["Rally the Ancestors"]
+    },
+    {
+      "Type": "DoesNotContain",
+      "Cards": ["Knight-Errant of Eos"]
     }
   ]
 }

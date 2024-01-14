@@ -7,20 +7,8 @@
             "Cards": ["Songs of the Damned"]
         },
         {
-            "Type": "InMainboard",
-            "Cards": ["Reaping the Graves"]
-        },        
-        {
-            "Type": "TwoOrMoreInMainboard",
-            "Cards": [
-                "Drannith Stinger",
-                "Drannith Stinger",
-                "Horror of the Broken Lands",
-                "Imposing Vantasaur",
-                "Monstrous Carabid",
-                "Deadshot Minotaur",
-                "Viashino Sandsprinter"
-            ]                            
+            "Type": "DoesNotContainMainboard",
+            "Cards": ["Balustrade Spy"]
         }
-    ]   
+   ]   
 }

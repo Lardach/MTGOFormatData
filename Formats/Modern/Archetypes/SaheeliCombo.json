@@ -16,14 +16,6 @@
     },
     {
       "Type": "DoesNotContain",
-      "Cards": ["Flamekin Harbinger"]
-    },
-    {
-      "Type": "DoesNotContain",
-      "Cards": ["Flamekin Harbinger"]
-    },
-    {
-      "Type": "DoesNotContain",
       "Cards": ["Glimpse of Tomorrow"]
     },
     {
@@ -33,18 +25,6 @@
     {
       "Type": "DoesNotContain",
       "Cards": ["Crashing Footfalls"]
-    }
-  ],
-  "Variants": [
-    {
-      "Name": "OmnathSaheeli",
-      "IncludeColorInName": false,
-      "Conditions": [
-        {
-          "Type": "InMainboard",
-          "Cards": ["Omnath, Locus of Creation"]
-        }
-      ]
     }
   ]
 }

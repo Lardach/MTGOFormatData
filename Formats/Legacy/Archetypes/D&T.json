@@ -4,7 +4,7 @@
     "Conditions": [
         {
             "Type": "OneOrMoreInMainboard",
-            "Cards": ["Aether Vial", "Chalice of the Void"]
+            "Cards": ["Aether Vial", "Chalice of the Void","Umezawa's Jitte"]
         },
         {
             "Type": "InMainboard",
@@ -16,15 +16,15 @@
         },
         {
             "Type": "OneOrMoreInSideboard",
-            "Cards": ["Yorion, Sky Nomad", "Deafening Silence"]
-        },
-        {
-            "Type": "DoesNotContain",
-            "Cards": ["Emeria's Call"]
+            "Cards": ["Yorion, Sky Nomad", "Deafening Silence","Sanctum Prelate"]
         },
         {
             "Type": "DoesNotContain",
             "Cards": ["Brutal Cathar"]
+        },
+        {
+            "Type": "DoesNotContain",
+            "Cards": ["Green Sun's Zenith"]
         }
     ]
       

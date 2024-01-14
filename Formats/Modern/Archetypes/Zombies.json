@@ -12,23 +12,7 @@
     },
 	{
       "Type": "DoesNotContain",
-      "Cards": ["Death's Shadow"]
-    },
-	{
-      "Type": "DoesNotContain",
       "Cards": ["Hedron Crab"]
-    }
-  ],
-  "Variants": [
-    {
-      "Name": "Zombardment",
-      "IncludeColorInName": false,
-      "Conditions": [
-        {
-          "Type": "InMainboard",
-          "Cards": ["Goblin Bombardment"]
-        }
-      ]
     }
   ]
 }

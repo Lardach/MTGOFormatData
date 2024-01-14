@@ -3,32 +3,16 @@
     "IncludeColorInName": true,
     "Conditions": [
         {
-            "Type": "OneOrMoreInMainboard",
-            "Cards": ["Dragon's Rage Channeler", "Delver of Secrets", "Third Path Iconoclast"]
+            "Type": "TwoOrMoreInMainboard",
+            "Cards": ["Dragon's Rage Channeler", "Delver of Secrets","Orcish Bowmasters","Murktide Regent"]
         },
         {
-            "Type" : "OneorMoreInMainboard",
-            "Cards": ["Murktide Regent", "Brazen Borrower","Pyroblast"]
-        },
-        {
-            "Type": "OneOrMoreInMainboard",
-            "Cards": ["Daze", "Force of Will"]
-        },
-        {
-            "Type": "OneOrMoreInMainboard",
-            "Cards": ["Ponder", "Expressive Iteration", "Brainstorm "]
+            "Type": "InMainboard",
+            "Cards": ["Daze"]
         },
         {
             "Type": "DoesNotContain",
-            "Cards": ["Arclight Phoenix"]
-        },
-        {
-            "Type": "DoesNotContain",
-            "Cards": ["Stoneforge Mystic"]
-        },
-        {
-            "Type": "DoesNotContainMainboard",
-            "Cards": ["Monastery Mentor"]
+            "Cards": ["Up the Beanstalk"]
         },
         {
             "Type": "DoesNotContain",
@@ -36,24 +20,22 @@
         },
         {
             "Type": "DoesNotContain",
-            "Cards": ["Painter's Servant"]
-        },
-        {
-            "Type": "DoesNotContain",
-            "Cards": ["Doomsday"]
-        },
-        {
-            "Type": "DoesNotContain",
-            "Cards": ["Green Sun's Zenith"]
-        },
-        {
-            "Type": "DoesNotContain",
-            "Cards": ["Leovold, Emissary of Trest"]
-        },
-        {
-            "Type": "DoesNotContain",
-            "Cards": ["Snuff Out"]
-        }
+            "Cards": ["Animate Dead"]
+        }             
+        
+    ],
+    "Variants": [
+      {
+        "Name": "Temur Delver",
+        "IncludeColorInName": false,
+        "Conditions": [
+          {
+            "Type": "InMainboard",
+            "Cards": ["Questing Druid"]
+          }
+        ]
+    }
     ]
 }
+
 

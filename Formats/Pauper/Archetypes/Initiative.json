@@ -1,0 +1,14 @@
+{
+    "Name": "Initiative",
+    "IncludeColorInName": true,
+    "Conditions": [
+        {
+            "Type": "OneOrMoreInMainboard",
+            "Cards": ["Trailblazer's Torch","Goliath Paladin"]
+        },
+        {
+            "Type": "DoesNotContain",
+            "Cards": ["Ephemerate"]
+        }
+    ]   
+}

@@ -1,0 +1,14 @@
+{
+    "Name": "Graveyard",
+    "IncludeColorInName": true,
+    "Conditions": [
+        {
+            "Type": "InMainboard",
+            "Cards": ["Lotleth Giant"]
+        },
+        {
+            "Type": "InMainboard",
+            "Cards": ["Dread Return"]
+        }
+    ]
+}

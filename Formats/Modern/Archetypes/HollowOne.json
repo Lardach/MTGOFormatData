@@ -13,22 +13,6 @@
     {
       "Type": "OneOrMoreInMainboard",
       "Cards": ["Goblin Lore","Cathartic Reunion"]
-    },
-    {
-      "Type": "DoesNotContain",
-      "Cards": ["Murktide Regent"]
-    }
-  ],
-  "Variants": [
-    {
-      "Name": "Hollowvine",
-      "IncludeColorInName": false,
-      "Conditions": [
-        {
-          "Type": "InMainboard",
-          "Cards": ["Vengevine"]
-        }
-      ]
     }
   ]
 }
