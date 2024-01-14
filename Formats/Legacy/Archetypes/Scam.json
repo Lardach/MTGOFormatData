@@ -1,0 +1,14 @@
+{
+    "Name": "Scam",
+    "IncludeColorInName": true,
+    "Conditions": [
+        {
+            "Type": "InMainboard",
+            "Cards": ["Grief"]
+        },      
+        {
+            "Type": "OneOrMoreInMainboard",
+            "Cards": ["Hymn to Tourach","Fury"]
+        }   
+    ]
+}

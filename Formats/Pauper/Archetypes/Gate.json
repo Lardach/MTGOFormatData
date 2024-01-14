@@ -1,0 +1,22 @@
+{
+    "Name": "Gate",
+    "IncludeColorInName": false,
+    "Conditions": [
+        {
+            "Type": "InMainboard",
+            "Cards": ["Basilisk Gate"]
+        }
+    ],
+    "Variants": [
+        {
+            "Name": "Caw Gate",
+            "IncludeColorInName": false,
+            "Conditions": [
+                {
+                    "Type": "InMainboard",
+                    "Cards": ["Squadron Hawk"]
+                }
+            ]
+        }
+    ]
+}
