@@ -21,7 +21,11 @@
         {
             "Type": "DoesNotContain",
             "Cards": ["Animate Dead"]
-        }             
+        },
+        {
+            "Type": "DoesNotContain",
+            "Cards": ["Hogaak, Arisen Necropolis"]
+        }          
         
     ],
     "Variants": [
@@ -32,6 +36,16 @@
           {
             "Type": "InMainboard",
             "Cards": ["Questing Druid"]
+          }
+        ]
+    },
+    {
+        "Name": "Dimir Scam",
+        "IncludeColorInName": false,
+        "Conditions": [
+          {
+            "Type": "InMainboard",
+            "Cards": ["Grief"]
           }
         ]
     }

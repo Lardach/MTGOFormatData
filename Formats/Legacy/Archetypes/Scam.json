@@ -5,10 +5,11 @@
         {
             "Type": "InMainboard",
             "Cards": ["Grief"]
-        },      
-        {
-            "Type": "OneOrMoreInMainboard",
-            "Cards": ["Hymn to Tourach","Fury"]
-        }   
+        },   
+  	    {
+            "Type": "DoesNotContain",
+            "Cards": ["Murktide Regent"]
+        }
+        
     ]
 }
