@@ -1,5 +1,5 @@
 {
-    "Name": "Mono B Control",
+    "Name": "Mono B",
     "IncludeColorInName": false,
     "Conditions": [
         {
@@ -9,18 +9,6 @@
         {
             "Type": "OneormoreInMainboard",
             "Cards": ["Thorn of the Black Rose","Chittering Rats","Geth's Verdict"]
-        },
-        {
-            "Type": "DoesNotContainMainboard",
-            "Cards": ["Pestilence"]
-        },
-        {
-            "Type": "DoesNotContain",
-            "Cards": ["Ephemerate"]
-        },
-        {
-            "Type": "DoesNotContain",
-            "Cards": ["Khalni Garden"]
         }
     ]
 }

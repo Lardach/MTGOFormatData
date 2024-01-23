@@ -1,11 +1,10 @@
 {
-    "Name": "Hawk",
+    "Name": "Kiln Fiend",
     "IncludeColorInName": true,
     "Conditions": [
         {
             "Type": "InMainboard",
-            "Cards": ["Glint Hawk"]
+            "Cards": ["Kiln Fiend"]
         }
-    ]
-
+    ]   
 }
