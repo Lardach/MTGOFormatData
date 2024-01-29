@@ -5,14 +5,18 @@
         {
             "Type": "InMainboard",
             "Cards": ["Mind's Desire"]
-        },       
+        }
+    ],
+    "Variants": [
         {
-            "Type": "DoesNotContainMainboard",
-            "Cards": ["Tendrils of Agony"]
-        },       
-        {
-            "Type": "DoesNotContain",
-            "Cards": ["High Tide"]
+            "Name": "High Tide",
+            "IncludeColorInName": false,
+            "Conditions": [
+                {
+                    "Type": "InMainboard",
+                    "Cards": ["High Tide"]
+                }
+            ]
         }
     ]
 }
