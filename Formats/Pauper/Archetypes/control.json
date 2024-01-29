@@ -3,8 +3,8 @@
     "IncludeColorInName": true,
     "Conditions": [
         {
-            "Type" : "InMainboard",
-            "Cards": ["Counterspell"]
+            "Type" : "OneOrMoreInMainboard",
+            "Cards": ["Counterspell","Force Spike"]
         },   
         {
             "Type" : "OneOrMoreInMainboard",

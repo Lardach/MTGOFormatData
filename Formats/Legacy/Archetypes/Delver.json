@@ -7,8 +7,8 @@
             "Cards": ["Dragon's Rage Channeler", "Delver of Secrets","Orcish Bowmasters","Murktide Regent"]
         },
         {
-            "Type": "InMainboard",
-            "Cards": ["Daze"]
+            "Type": "OneOrMoreInMainboard",
+            "Cards": ["Daze","Snuff Out"]
         },
         {
             "Type": "DoesNotContain",
@@ -25,7 +25,11 @@
         {
             "Type": "DoesNotContain",
             "Cards": ["Hogaak, Arisen Necropolis"]
-        }          
+        },
+        {
+            "Type": "DoesNotContain",
+            "Cards": ["Teferi, Time Raveler"]
+        }             
         
     ],
     "Variants": [
